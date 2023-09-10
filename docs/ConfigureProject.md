@@ -1,8 +1,9 @@
 # xacheri-dev
+Basic steps for configuring a Vue.js project with npm
 
-This template should help get you started developing with Vue 3 in Vite.
 ## Required Software
 [node package manager](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (npm)
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur)
@@ -14,6 +15,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Project Setup
 This project uses the node package manager to install dependencies specified in package.json, including Vue.js and ESLint
 ```sh
+cd xacheri-dev
 npm install
 ```
 
