@@ -1,5 +1,4 @@
 <script setup>
-    import 'bootstrap/dist/css/bootstrap.css';
 </script>
 
 <template>
@@ -7,7 +6,7 @@
         <h1 ref="h1" class="headerText fw-semibold">Zachery Smith</h1>
     </transition>
     <transition name="nameSlideTwo" appear>
-        <h2 ref="h2" class="headerText">Software Developer</h2>
+        <h2 ref="h2" class="headerText">Full-Stack Software Developer</h2>
     </transition>
 </template>
 

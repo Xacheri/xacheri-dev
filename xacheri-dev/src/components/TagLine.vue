@@ -1,10 +1,9 @@
 <script setup>
-    import 'bootstrap/dist/css/bootstrap.css';
 </script>
 
 <template>
     <transition name="tagLineSlide" appear>
-        <span class="text-center mt-5 pt-5">Engineering real solutions to complex problems.</span>
+        <span class="text-center mt-5 pt-3">Engineering real solutions to complex problems.</span>
     </transition>
 </template>
 
