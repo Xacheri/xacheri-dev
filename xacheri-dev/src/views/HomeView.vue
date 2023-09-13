@@ -3,6 +3,7 @@
   import TagLine from '../components/TagLine.vue'; 
   import JobHistory from '../components/JobHistory.vue';
   import EducationHistory from '../components/EducationHistory.vue';
+  import AwardsHistory from '../components/AwardsHistory.vue';
 </script>
 
 <template>
@@ -13,6 +14,7 @@
     </div>
     <main class="mt-5">
       <JobHistory></JobHistory>
+      <AwardsHistory></AwardsHistory>
       <EducationHistory></EducationHistory>
     </main>
   </div>

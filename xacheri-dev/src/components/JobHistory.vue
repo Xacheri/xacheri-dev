@@ -5,6 +5,7 @@
 <template>
         <transition name="jobsFadeIn" appear>
             <div>
+                <h3 class="fw-bold text-center mb-2">Professional Experience</h3>
                 <JobCard v-for="(job, index) in this.jobs" :job="job" :key="index"></JobCard>
             </div>
         </transition>
@@ -25,6 +26,18 @@
                             "Engineered software to migrate the course catalog database towards an in-house solution.",
                             "Designed and implemented an API to display course information.",
                             "Answer web-related software tickets."
+                        ]
+                    },
+                    {
+                        organization: "Missouri Scholars Academy",
+                        position: "Resident Assistant",
+                        dates: "June 2023",
+                        skills: ["Mentorship", "Teaching", "Public Speaking", "Teamwork", "Compassion", "Persistence"],
+                        descriptions:
+                        [
+                            "Presented an original 90 minute web history workshop targeting gifted and talented high school students.",
+                            "Lead house meetings and personally facilitated residential life for 15 Missouri's highly gifted rising juniors at an intensive 3 week governor's school.",
+                            "Taught a specialized Personal and Social Development curriculum for gifted students alongside esteemed faculty members."
                         ]
                     },
                     {

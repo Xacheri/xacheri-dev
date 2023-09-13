@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="glassCard mt-5">
+    <div class="glassCard shadow-lg mt-5">
         <div class="row">
             <h4 class="text-start col">{{job.organization}}</h4>
             <div class="col d-flex flex-column align-items-end" id="titleAndDate">
@@ -10,16 +10,16 @@
                 <span class="text-end m-1" id="date">{{job.dates}}</span>
             </div>
         </div>
-        <div class="row">
+        <div class="row d-flex">
             <div id="skills" class="col">
                 <p class="text-decoration-underline mb-1">Skills:</p>
                 <ul id="skillsList" class="ps-0 ps-md-4 d-flex flex-column flex-wrap">
-                    <li v-for="(skill, index) in job.skills" :key="index">{{ skill }}</li>
+                    <li class="me-1 skillsListItem" v-for="(skill, index) in job.skills" :key="index">{{ skill }}</li>
                 </ul>
             </div>
-            <div id="description" class="col-7 col-md-9">
+            <div id="description" class="col">
                 <ul id="descriptionList">
-                    <li class="m-1" v-for="(description, index) in job.descriptions" :key="index">{{ description }}</li>
+                    <li v-for="(description, index) in job.descriptions" :key="index">{{ description }}</li>
                 </ul>
             </div>
         </div>
@@ -41,8 +41,17 @@
         color: var(--soft-white);
     }
 
+    h4 {
+        font-size: 1.75rem;
+        font-weight: 600;
+    }
+
     #skillsList {
         list-style: none;
+        min-width: fit-content;
+    }
+
+    .skillsListItem {
     }
 
     #date {
@@ -53,7 +62,6 @@
         border-radius: 20px;
         border: 1px solid rgba(255, 255, 255, .25);
         background-color: rgba(255, 255, 255, 0.247);
-        box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.25);
         backdrop-filter: blur(15px);
         padding: 1rem;
     }
