@@ -51,8 +51,6 @@
         min-width: fit-content;
     }
 
-    .skillsListItem {
-    }
 
     #date {
         font-size: 0.75rem;
