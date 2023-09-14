@@ -5,7 +5,7 @@
 <template>
         <div class="mt-5 row">
             <div class="col d-flex">
-                <img class="img-fluid m-1 p-1 p-sm-2 p-md-3 p-lg-4" id="logoImage" :src="award.logoPath" :alt="award.logoName">
+                <img class="img-fluid m-1 p-1 p-sm-2 p-md-3 p-lg-4 logoImage" :src="award.logoPath" :alt="award.logoName">
             </div>
             <div class="col d-flex flex-column justify-content-center">
                 <h4>{{ award.award }}</h4>
@@ -46,7 +46,7 @@
         padding-left: 0px;
     }
 
-    #logoImage {
+    .logoImage {
         width: 100% /9;
     }
 </style>

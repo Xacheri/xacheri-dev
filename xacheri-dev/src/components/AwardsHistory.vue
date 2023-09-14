@@ -23,7 +23,7 @@
                         date: "Apr 2023",
                         description: "Competed individually in a state-level collegiate programming championship, winning 1st place and qualifying to the National competition.",
                         skills: ["C#", "Object-Oriented Programming"],
-                        logoPath: "src/assets/skills-svg.svg",
+                        logoPath: "./src/assets/skills-missouri-logo.png",
                         logoName: "SkillsUSA Missouri Logo" 
                     },
                     {
@@ -33,7 +33,7 @@
                         date: "Feb 2023",
                         description: "Competed individually in a regional collegiate programming competition, winning 1st place and qualifying to the State competition.",
                         skills: ["C#", "Object-Oriented Programming"],
-                        logoPath: "src/assets/skills-svg.svg",
+                        logoPath: "./src/assets/skills-missouri-logo.png",
                         logoName: "SkillsUSA Missouri Logo" 
                     }
                 ]
