@@ -4,6 +4,7 @@
   import JobHistory from '../components/JobHistory.vue';
   import EducationHistory from '../components/EducationHistory.vue';
   import AwardsHistory from '../components/AwardsHistory.vue';
+  // import CertificationHistory from '../components/CertificationHistory.vue';
 </script>
 
 <template>
@@ -14,6 +15,7 @@
     </div>
     <main class="mt-5">
       <JobHistory></JobHistory>
+      <!-- <CertificationHistory></CertificationHistory> -->
       <AwardsHistory></AwardsHistory>
       <EducationHistory></EducationHistory>
     </main>

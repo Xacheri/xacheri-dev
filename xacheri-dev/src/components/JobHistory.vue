@@ -6,7 +6,7 @@
         <transition name="jobsFadeIn" appear>
             <div>
                 <h3 class="fw-bold text-center mb-2">Professional Experience</h3>
-                <JobCard v-for="(job, index) in this.jobs" :job="job" :key="index"></JobCard>
+                <JobCard v-for="(job, index) in jobs" :job="job" :key="index"></JobCard>
             </div>
         </transition>
 </template>
