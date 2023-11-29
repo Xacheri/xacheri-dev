@@ -5,20 +5,20 @@
 <template>
         <div class="mt-5 row">
             <div class="col d-flex">
-                <img class="img-fluid m-1 p-1 p-sm-2 p-md-3 p-lg-4 logoImage" :src="award.logoPath" :alt="award.logoName">
+                <img class="img-fluid m-1 ms-2 p-1 p-sm-2 p-md-3 p-lg-4 logoImage" :src="award.logoPath" :alt="award.logoName">
             </div>
             <div class="col d-flex flex-column justify-content-center">
-                <h4>{{ award.award }}</h4>
-                <h5>{{ award.competition }}</h5>
+                <h4 class="h4">{{ award.award }}</h4>
+                <h5 class="h5">{{ award.competition }}</h5>
                 <p id="dateEarned"> {{ award.date }}</p>
             </div>
         </div>
         <div class="row">
             <div class="col ms-2 me-2">
-                <p class="m-1" id="awardDescription"> {{ award.description }}</p>
-                <ul class="d-flex">
-                    <li class="m-1" role="heading">Skills:</li>
-                    <li class="m-1" v-for="(skill, index) in award.skills" :key="index">{{ skill }}{{ formatUtils.inlineListPunctuation(index, award.skills) }}</li>
+                <p class="m-1 fs-6" id="awardDescription"> {{ award.description }}</p>
+                <ul class="d-flex flex-wrap">
+                    <li class="m-1 fs-6" role="heading">Skills:</li>
+                    <li class="m-1 fs-6" v-for="(skill, index) in award.skills" :key="index">{{ skill }}{{ formatUtils.inlineListPunctuation(index, award.skills) }}</li>
                 </ul>
                 <p class="text-end" id="organizationName">Issued By: {{ award.organization }}</p>
             </div>
@@ -38,7 +38,7 @@
 
 <style>
     h4, h5, p, li{
-        color: var(--soft-white);
+        color: var(--soft-white) !important;
     }
 
     ul {

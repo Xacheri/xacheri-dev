@@ -23,8 +23,8 @@
                         skills: ["HTML/CSS", "WordPress", "JavaScript", "JQuery", "PHP", "Node.js", "MySQL", "MariaDB", "Git/Gitlab"],
                         descriptions:
                         [
-                            "Engineered software to migrate the course catalog database towards an in-house solution.",
-                            "Designed and implemented an API to display course information.",
+                            "Leveraged the Modern Campus API to build a comprehensive catalog database, effectively organizing course-related data.",
+                            "Designed and implemented an API to display course information, significantly decreasing the load time of the college programs pages.",
                             "Answer web-related software tickets."
                         ]
                     },
@@ -47,8 +47,8 @@
                         skills: ["HTML/CSS", "WordPress", "JavaScript", "JQuery", "Git/Gitlab"],
                         descriptions:
                         [
-                            "Designed and constructed a financial calculator for the college website.",
-                            "Regularly updated the college website through the Wordpress CMS",
+                            "Constructed a single-page financial calculator for the college website using jQuery, significantly increasing financial transparancy",
+                            "Regularly updated the college website through the Wordpress CMS, ensuring that the website was up-to-date and accurate.",
                             "Worked independently and effectively with minimal supervision."
                         ]
                     }
